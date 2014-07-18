@@ -5,6 +5,14 @@
   <version>1.0.0</version>
   <packaging>war</packaging>
   
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.0.6.RELEASE</version>
+	</dependency>
+  </dependencies>
+  
   <build>
 		<finalName>busonda</finalName>
 		
@@ -31,8 +39,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<encoding>utf-8</encoding>
 				</configuration>
 			</plugin>
